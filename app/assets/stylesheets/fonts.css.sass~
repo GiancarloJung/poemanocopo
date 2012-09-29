@@ -1,0 +1,9 @@
+@font-face
+  font-family: "Sketch Coursive"
+  src: url('SketchCoursive.ttf')
+  src: local('SketchCoursive') format('truetype')
+  
+@font-face
+  font-family: "Oldstyle"
+  src: url('Oldstyle.ttf')
+  src: local('Oldstyle') format('truetype')

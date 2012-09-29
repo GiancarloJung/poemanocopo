@@ -1,0 +1,54 @@
+doctype
+html lang="pt"
+  head
+    title Poema no Copo
+    = stylesheet_link_tag    "application", :media => "all"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  body
+  
+    #wrapper
+    
+	    #top
+		    .container_12
+			    #logo.grid_5
+			      br
+			      img src="assets/logo.png"
+			    #top_text.grid_6.push_1
+			      h1 Título
+			      br
+			      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam luctus congue enim, in tristique tortor accumsan vel. Curabitur tempus, nibh vitae auctor volutpat, neque dui convallis tellus, quis sollicitudin libero nisi eu est. Nam non lorem felis. Phasellus non nisl purus, vel dignissim mi. Suspendisse vehicula vehicula diam, sit amet ultrices dui sagittis eu.
+			          
+        #content.container_12
+        
+          br
+            
+          #social
+            .grid_1.push_8
+              a.facebook href="http://www.facebook.com/poemanocopo" title="Facebook"
+            .grid_1.push_9
+              a.twitter href="http://www.twitter.com/poemanocopo" title="Twitter"
+
+          .clear
+          
+          = yield
+        
+        #push
+
+  
+    #footer
+      .container_12
+        br
+        .grid_5.push_1
+          br
+          a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.pt" rel="license"
+            img alt="Licença Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png"
+          br
+        .grid_5.push_2
+          img src="assets/rails.png"
+          a href="http://www.heroku.com"
+            img src="assets/heroku.png"
+          a href="http://www.960.gs"
+            img src="assets/grid960.png"
+          a href="http://www.github.com/giancarlojung"
+            img src="assets/github.png"

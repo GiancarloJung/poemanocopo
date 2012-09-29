@@ -1,0 +1,23 @@
+/* line 5, ../../app/assets/stylesheets/home.css.sass */
+#home_content h1 {
+  color: black;
+  font-size: 50pt;
+  font-family: "Sketch Coursive";
+}
+/* line 10, ../../app/assets/stylesheets/home.css.sass */
+#home_content p {
+  font-family: "Helvetica";
+  font-size: medium;
+  text-align: center;
+  color: #444444;
+}
+/* line 16, ../../app/assets/stylesheets/home.css.sass */
+#home_content a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #496178;
+}
+/* line 21, ../../app/assets/stylesheets/home.css.sass */
+#home_content a:hover {
+  color: #6a955b;
+}
