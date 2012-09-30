@@ -9,9 +9,9 @@
     br
     br
     br
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque metus nulla, aliquam ullamcorper condimentum a, varius eget est. Aliquam pharetra, dolor sit amet elementum placerat.
+    p Você escreve seus poemas e manda pra gente, por esse site aqui ou nas caixinhas de coleta dos bares associados. De todos os escritos recebidos, nos selecionamos os mais legais e publicamos no nosso blog.
     br
-    p Odio risus laoreet neque, rutrum malesuada enim purus at urna. Vivamus in augue nulla. Cras elementum nunc non nibh interdum viverra. Curabitur nec pellentesque justo. Aliquam ultricies vehicula massa ut luctus. Donec pharetra elit a elit tempor viverra. 
+    p Os melhores poemas ganham cartazes 
    
   .clear
   
@@ -26,7 +26,7 @@
   br
   #main-join.grid_8.push_2
     p
-      | mande seus poemas para a gente 
+      | Mande seus poemas para a gente 
       a href="#" clicando aqui.
   .clear
   
@@ -44,8 +44,8 @@
   br
   .grid_12
     p 
-      a href="#" 
-      | Entre em contato para saber mais sobre como seu bar pode participar.
+      a href="#" Entre em contato 
+      | para saber mais sobre como seu bar pode participar.
       
   .clear
   br

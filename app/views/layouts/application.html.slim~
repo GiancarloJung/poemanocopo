@@ -24,7 +24,7 @@ html lang="pt"
           br
             
           #social
-            .grid_1.push_8
+            .grid_1.push_9
               a.facebook href="http://www.facebook.com/poemanocopo" title="Facebook"
             .grid_1.push_9
               a.twitter href="http://www.twitter.com/poemanocopo" title="Twitter"
@@ -39,12 +39,15 @@ html lang="pt"
     #footer
       .container_12
         br
-        .grid_5.push_1
-          br
+        .grid_1.push_1
+          p Licença
           a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.pt" rel="license"
             img alt="Licença Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png"
-          br
         .grid_5.push_2
+          p Idealizadores
+          
+        .grid_5.push_1
+          p Este site usa:
           img src="assets/rails.png"
           a href="http://www.heroku.com"
             img src="assets/heroku.png"
@@ -52,3 +55,4 @@ html lang="pt"
             img src="assets/grid960.png"
           a href="http://www.github.com/giancarlojung"
             img src="assets/github.png"
+
