@@ -40,14 +40,27 @@ html lang="pt"
       .container_12
         br
         .grid_1.push_1
-          p Licença
+          h2 Licença
+          br
           a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.pt" rel="license"
             img alt="Licença Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png"
-        .grid_5.push_2
-          p Idealizadores
-          
+            
+        .grid_5.push_3
+          h2 Idealizadores
+          br 
+          .names
+            p Giancarlo Jung
+            p Vinicius Verri
+            p Justine Cardoso
+            p Petrus Atayde
+            p 
+              s Bodão
+            p
+              s Lorran
+              
         .grid_5.push_1
-          p Este site usa:
+          h2 Este site usa:
+          br
           img src="assets/rails.png"
           a href="http://www.heroku.com"
             img src="assets/heroku.png"
