@@ -32,11 +32,10 @@ test:
   socket: /var/run/mysqld/mysqld.sock
 
 production:
-  adapter: mysql2
-  encoding: utf8
-  reconnect: false
-  database: poemanocopo_production
+  adapter: postgresql
+  encoding: unicode
+  database: appname_development
   pool: 5
-  username: root
+  timeout: 5000
+  username: giancarlo
   password:
-  socket: /var/run/mysqld/mysqld.sock
