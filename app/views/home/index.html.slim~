@@ -1,17 +1,19 @@
 #home_content.content_12
   .grid_10.push_1.omega
     h1 Como funciona? 
-  .clear   
+  .clear
+  br   
   .grid_5.push_1
     img src="assets/how.png" height="300px"
-  br
   .grid_5.push_1
+    p 
+      | Para participar é muito fácil! Tudo que você tem que fazer é escrever o seu próprio poema, de preferencia com temática boêmia, em um Copo de Papel (solicite ao garçom) e depositá-lo na urna de um dos bares associados. Ou você também pode enviá-lo aqui pelo site.
     br
+    p 
+      | Os mais legais  serão exibidos nas paredes dos bares participantes e os poemas serão trocados com regularidade, dando ainda mais chances para participar.
     br
-    br
-    p Você escreve seus poemas e manda pra gente, por esse site aqui ou nas caixinhas de coleta dos bares associados. De todos os escritos recebidos, nos selecionamos os mais legais e publicamos no nosso blog.
-    br
-    p Os melhores poemas ganham cartazes 
+    p 
+      | Os melhores poetas de cada bar poderão receber descontos na comanda, cerveja, batata frita ou outros prêmios, de acordo com o bar em questão, além da diversão e do reconhecimento. 
    
   .clear
   
@@ -24,10 +26,11 @@
     h1 Participe!
   .clear
   br
-  #main-join.grid_8.push_2
+  .grid_8.push_2
     p
       | Mande seus poemas para a gente 
-      a href="#" clicando aqui.
+      a href="#" clicando aqui 
+      | ou entregando diretamente em um dos nossos bares parceiros.
   .clear
   
   br
@@ -37,12 +40,9 @@
   
   .grid_3.push_1
     h1 Parceiros:
-    br
-    br
-    br
   .clear
   br
-  .grid_12
+  .grid_8.push_2
     p 
       a href="#" Entre em contato 
       | para saber mais sobre como seu bar pode participar.

@@ -10,7 +10,7 @@
   p
     font-family: "Helvetica"
     font-size: medium
-    text-align: center
+    text-align: left
     color: #444444
     
   a
@@ -19,7 +19,7 @@
     text-decoration: none
     color: #496178
     &:hover
-      color: #b13737
+      color: #6a955b
 
 
 

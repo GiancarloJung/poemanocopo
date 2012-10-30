@@ -11,13 +11,15 @@ html lang="pt"
     
 	    #top
 		    .container_12
-			    #logo.grid_5
+			    #logo.grid_4
 			      br
 			      img src="assets/logo.png"
-			    #top_text.grid_6.push_1
-			      h1 Título
+			    #top_text.grid_7.push_2
+			      h1 sobre o projeto
 			      br
-			      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam luctus congue enim, in tristique tortor accumsan vel. Curabitur tempus, nibh vitae auctor volutpat, neque dui convallis tellus, quis sollicitudin libero nisi eu est. Nam non lorem felis. Phasellus non nisl purus, vel dignissim mi. Suspendisse vehicula vehicula diam, sit amet ultrices dui sagittis eu.
+			      p Nós do Poema no Copo temos como proposta incentivar a literatura boêmia da capital gaúcha de maneira descontraída. Com pareceria de diversos bares de Porto Alegre, exibiremos os melhores poemas de nossos participantes, gerando divertimento e reconhecimento para os criativos da região. 
+			      br
+			      p.red Tire os poemas do papel e ponha-os no copo!
 			          
         #content.container_12
         
@@ -40,23 +42,21 @@ html lang="pt"
       .container_12
         br
         .grid_1.push_1
-          h2 Licença
+          h2 Licença:
           br
           a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.pt" rel="license"
             img alt="Licença Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png"
             
         .grid_5.push_3
-          h2 Idealizadores
+          h2 Idealizadores:
           br 
-          .names
-            p Giancarlo Jung
-            p Vinicius Verri
-            p Justine Cardoso
-            p Petrus Atayde
-            p 
-              s Bodão
-            p
-              s Lorran
+          .names.pull_2
+            p Giancarlo
+            p Vinicius
+            p Justine
+            p Petrus
+            p Daniel
+            p Lorran
               
         .grid_5.push_1
           h2 Este site usa:
@@ -66,6 +66,6 @@ html lang="pt"
             img src="assets/heroku.png"
           a href="http://www.960.gs"
             img src="assets/grid960.png"
-          a href="http://www.github.com/giancarlojung"
+          a href="https://github.com/GiancarloJung/poema-no-copo"
             img src="assets/github.png"
 

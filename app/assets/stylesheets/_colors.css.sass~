@@ -1,4 +1,5 @@
-@var $gray: #444444
+@var $gray
+  color: #444444
 @var $red: #b13737
 @var $light-blue: #496178
 @var $dark-blue: #182b3d
