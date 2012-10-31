@@ -26,9 +26,9 @@ html lang="pt"
           br
             
           #social
-            .grid_1.push_10
+            .grid_1.push_9
               a.facebook href="http://www.facebook.com/poemanocopo" title="Facebook"
-            .grid_1.push_10
+            .grid_1.push_9
               a.twitter href="http://www.twitter.com/poemanocopo" title="Twitter"
 
           .clear
