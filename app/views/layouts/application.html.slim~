@@ -19,16 +19,16 @@ html lang="pt"
 			      br
 			      p Nós do Poema no Copo temos como proposta incentivar a literatura boêmia da capital gaúcha de maneira descontraída. Com pareceria de diversos bares de Porto Alegre, exibiremos os melhores poemas de nossos participantes, gerando divertimento e reconhecimento para os criativos da região. 
 			      br
-			      p.red Tire os poemas do papel e ponha-os no copo!
+			      p Tire os poemas do papel e ponha-os no copo!
 			          
         #content.container_12
         
           br
             
           #social
-            .grid_1.push_9
+            .grid_1.push_10
               a.facebook href="http://www.facebook.com/poemanocopo" title="Facebook"
-            .grid_1.push_9
+            .grid_1.push_10
               a.twitter href="http://www.twitter.com/poemanocopo" title="Twitter"
 
           .clear

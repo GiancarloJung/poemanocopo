@@ -22,3 +22,13 @@
 #home_content a:hover {
   color: #6a955b;
 }
+
+/* line 26, ../../app/assets/stylesheets/home.css.sass */
+#join p {
+  text-align: center;
+}
+
+/* line 30, ../../app/assets/stylesheets/home.css.sass */
+#partners p {
+  text-align: center;
+}
