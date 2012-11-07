@@ -22,9 +22,12 @@
     &:hover
       color: #6a955b
       
+.green
+  color: #6a955b
+  
 #join
   p
-    text-align:center
+    text-align: center
 
 #partners
   p

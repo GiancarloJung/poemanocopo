@@ -1,9 +1,16 @@
-@var $gray
+.paragraph:
   color: #444444
-@var $red: #b13737
-@var $light-blue: #496178
-@var $dark-blue: #182b3d
-@var $bright-brown: #c3b0a0
-@var $light-brown: #725b4e
-@var $dark-brown: #221b17
-@var $green: #6a955b
+.red:
+  color: #b13737
+.light-blue:
+  color: #496178
+.dark-blue:
+  color: #182b3d
+.bright-brown:
+  color: #c3b0a0
+.light-brown:
+  color: #725b4e
+.dark-brown:
+  color: #221b17
+.green
+  color: #6a955b

@@ -6,13 +6,15 @@ html lang="pt"
     = stylesheet_link_tag    "application", :media => "all"
     = javascript_include_tag "application"
     = csrf_meta_tags
+    
+    
   body
   
     #wrapper
     
 	    #top
 		    .container_12
-			    #logo.grid_4
+			    #logo.grid_3
 			      br
 			      img src="assets/logo.png"
 			    #top_text.grid_7.push_2
@@ -51,7 +53,7 @@ html lang="pt"
         .grid_5.push_3
           h2 Idealizadores:
           br 
-          .names.pull_2
+          .names
             p Giancarlo
             p Vinicius
             p Justine
