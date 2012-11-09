@@ -1,5 +1,5 @@
-#home_content.content_12
-  .grid_10.push_1.omega
+#home.content.content_12 name="top"
+  .grid_10.push_1
     h1 Como funciona? 
   .clear
   br
@@ -10,7 +10,7 @@
     p 
       | Para participar é muito fácil! Tudo que você tem que fazer é escrever o seu próprio poema, de preferencia com temática boêmia, em um 
       spam.green Copo de Papel
-      | (solicite ao garçom) e depositá-lo na urna de um dos bares associados. Ou você também pode enviá-lo aqui pelo site.
+      |  (solicite ao garçom) e depositá-lo na urna de um dos bares associados. Ou você também pode enviá-lo aqui pelo site.
     br
     p 
       | Os mais legais serão exibidos nas paredes dos bares participantes e os poemas serão trocados com regularidade, dando ainda mais chances para participar.
@@ -31,9 +31,9 @@
   br
   #join.grid_8.push_2
     p
-      | Mande seus poemas para a gente pelo email 
-      a href="mailto:poemas@poemanocopo.com.br?Subject=Poema%20pelo%20site" poemas@poemanocopo.com.br
-      |  ou entregue diretamente em um dos nossos bares parceiros.
+      | Mande seus poemas para a gente 
+      a href="/contact" clicando aqui
+      | , ou entregue diretamente em um dos nossos bares parceiros.
   .clear
   
   br

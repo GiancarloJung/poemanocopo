@@ -1,6 +1,20 @@
 Poemanocopo::Application.routes.draw do
+
+  get "help/help"
+  get "creators/crators"
   get "home/index"
+  get "licence/licence"
+  
   root :to => 'home#index'
+  
+  match 'home' => 'home#index'
+  match 'creators' => 'creators#creators'
+  match 'help' => 'help#help'
+  match 'licence' => 'licence#licence'
+    
+  match 'contact' => 'contact#new', :as => 'contact', :via => :get
+  match 'contact' => 'contact#create', :as => 'contact', :via => :post
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

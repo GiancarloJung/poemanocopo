@@ -1,0 +1,39 @@
+#help.content.container_12
+  .grid_2.push_1
+    h1 Ajuda
+  .clear
+  .grid_6.push_1
+    br
+    p Caso você tenha alguma dúvida, reclamação ou sugestão sinta-se livre para falar com a gente.
+    br
+  .clear
+  .grid_7.push_4
+    br
+    p Você pode:
+    br
+    p 
+      | Escrever um email para 
+      a href="mailto:contato@poemanocopo.com.br?Subject=Ajuda%20pelo%20site" contato@poemanocopo.com.br
+      | .
+    br
+    p
+      |  Nos procurar pelo 
+      a href="http://www.facebook.com/poemanocopo" target="_blank" facebook
+      | .
+    br
+    p  
+      |  Ou mandar um
+      a href="https://twitter.com/intent/tweet?screen_name=poemanocopo" class="twitter-mention-button" data-lang="en"  tweet
+      | .
+  .clear
+  
+  .grid_8.push_2
+    p Este site usa:
+    img src="assets/rails.png"
+    a href="http://www.960.gs"
+      img src="assets/grid960.png"
+    a href="https://github.com/GiancarloJung/poema-no-copo"
+      img src="assets/github.png"
+  .grid_1.push_1
+    br
+    a href="/home" voltar

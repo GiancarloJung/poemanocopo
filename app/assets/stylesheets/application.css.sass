@@ -62,14 +62,6 @@ a img
 
 #social
   font-size: x-large
-  a
-    font-weight: bold
-    color: #444444
-    &:link, a:visited, a:active
-      text-decoration: none
-      color: #444444
-    &:hover
-      color: #6a955b
       
 #logo
   img
@@ -84,19 +76,44 @@ a img
   box-shadow: inset 0 0 10px black
   min-height: 100%
 
+.content
+  h1
+    color: black
+    font-size: 50pt
+    font-family: "Sketch Coursive"
+    
+  p
+    font-family: "Helvetica"
+    font-size: medium
+    text-align: left
+    color: #444444
+    text-indent: 5mm
+
+  a
+    font-weight: bold
+    color: #496178
+    text-decoration: none
+    &:link, a:visited, a:active
+      text-decoration: none
+      color: #496178
+    &:hover
+      color: #6a955b 
+
     
 #footer
-  height: 150px
   background: #020200
-  background-image: -moz-linear-gradient(top, #020200, #000)
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #000), color-stop(1, #020200))
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#020200' endColorstr='#000')
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#020200' endColorstr='#000')"
-  h2
+  height: 50px
+  a
     font-family: "Helvetica"
     font-size: x-large
-    color: #496178
     font-weight: bold
+    color: #496178
+    text-decoration: none
+    &:link, a:visited, a:active
+      text-decoration: none
+      color: #496178
+    &:hover
+      color: #6a955b 
     
   p 
     font-family: "Autur One"

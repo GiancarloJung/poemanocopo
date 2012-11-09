@@ -61,5 +61,19 @@ module Poemanocopo
     
     # add app/assets/fonts to the asset path
     config.assets.paths << Rails.root.join("app", "assets", "fonts")
+    
+    config.action_mailer.smtp_settings = {
+      :address              => "smtp.gmail.com",
+      :port                 => 587,
+      :domain               => "poemanocoo.com.br",
+      :user_name            => "contato@poemanocopo.com.br",
+      :password             => "gm2006182326",
+      :authentication       => :plain,
+      :enable_starttls_auto => true
+      }
+
+      config.action_mailer.default_url_options = {
+      :host => "poemanocopo.com.br"
+      }
   end
 end

@@ -1,34 +1,18 @@
 /* line 5, ../../app/assets/stylesheets/home.css.sass */
-#home_content h1 {
-  color: black;
-  font-size: 50pt;
-  font-family: "Sketch Coursive";
-}
-/* line 10, ../../app/assets/stylesheets/home.css.sass */
-#home_content p {
+.green {
+  color: #6a955b;
   font-family: "Helvetica";
   font-size: medium;
   text-align: left;
-  color: #444444;
   text-indent: 5mm;
 }
-/* line 17, ../../app/assets/stylesheets/home.css.sass */
-#home_content a {
-  font-weight: bold;
-  text-decoration: none;
-  color: #496178;
-}
-/* line 22, ../../app/assets/stylesheets/home.css.sass */
-#home_content a:hover {
-  color: #6a955b;
-}
 
-/* line 26, ../../app/assets/stylesheets/home.css.sass */
+/* line 12, ../../app/assets/stylesheets/home.css.sass */
 #join p {
   text-align: center;
 }
 
-/* line 30, ../../app/assets/stylesheets/home.css.sass */
+/* line 16, ../../app/assets/stylesheets/home.css.sass */
 #partners p {
   text-align: center;
 }

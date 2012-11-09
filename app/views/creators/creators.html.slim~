@@ -1,0 +1,15 @@
+#creators.content.container_12
+
+  .grid_8.push_1
+    h1 como tudo começou
+  .clear
+  .grid_7.push_1
+    br
+    p Poema no Copo nasceu por acaso. Era metade de 2012 e três pretensos escritores estavam reunidos em um bar qualquer, quando um deles, por habito, rabiscou um poema num guardanapo de papel, assinou e deixou sobre a mesa. Os outros, curiosos, questionaram aquele estranho habito.
+    br
+    p Pouco depois, já não tão sóbrios quanto antes, conversaram sobre o assunto e acharam que seria muito legal que aquela ideia fosse expandida, alcançando vários frequentadores de vários bares. Esses três amigos, continuam ate hoje, escrevendo, bebendo e tentando trazer mais escritores a sua causa.
+    br
+    p Atualmente, ja somos uma equipe de seis pessoas que está dando o melhor de si para essa ideia acontecer =].
+  .clear
+  .grid_1.push_1
+    a href="/home" voltar

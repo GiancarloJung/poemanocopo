@@ -1,0 +1,19 @@
+#help.content.container_12
+  = form_for @poema, :url => contact_path do |form|
+    fieldset.fields.grid_5.push_1
+      .field
+        = form.label :nome
+        = form.text_field :name
+      
+      .field
+        = form.label :email 
+        = form.text_field :email 
+      .field
+        = form.label :título
+        = form.text_field :subject
+      .field
+        = form.label :Poema
+        = form.text_area :body
+
+    fieldset.actions
+      = form.submit "Send"
