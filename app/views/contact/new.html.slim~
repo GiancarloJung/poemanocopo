@@ -1,19 +1,37 @@
 #help.content.container_12
-  = form_for @poema, :url => contact_path do |form|
-    fieldset.fields.grid_5.push_1
-      .field
-        = form.label :nome
-        = form.text_field :name
-      
-      .field
-        = form.label :email 
-        = form.text_field :email 
-      .field
-        = form.label :título
-        = form.text_field :subject
-      .field
-        = form.label :Poema
-        = form.text_area :body
+  #title.grid_11.push_1
+    h1 Participe!
+    br
+    p Preencha todos os seus dados e envie seu poema que entraremos em contato.
+    br
+  .clear
+  #Poems_form
+    = form_for @poema, :url => contact_path do |form|
+      fieldset.fields.grid_5.push_1
+        .field
+          h2 Nome
+          p.small Coloque seu nome completo
+          = form.text_field :name
+          br
+          br
+        .field
+          h2 Email
+          p.small Seu email para contato
+          = form.text_field :email 
+          br
+          br
+        .field
+          h2 Título
+          p.small Adicione um título para o seu poema
+          = form.text_field :subject
+        .grid_5
+          br
+          img src="assets/poems.png"
+      fieldset.fields.grid_5
+        .field.grid_5
+          h2 Poema
+          = form.text_area :body
+          br
+          fieldset.actions.grid_1
+            = form.submit "Send"
 
-    fieldset.actions
-      = form.submit "Send"

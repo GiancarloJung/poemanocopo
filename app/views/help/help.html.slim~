@@ -7,7 +7,9 @@
     p Caso você tenha alguma dúvida, reclamação ou sugestão sinta-se livre para falar com a gente.
     br
   .clear
-  .grid_7.push_4
+  .grid_4.push_1
+    img src="assets/help.png" width="170px"
+  .grid_7
     br
     p Você pode:
     br
@@ -26,14 +28,6 @@
       a href="https://twitter.com/intent/tweet?screen_name=poemanocopo" class="twitter-mention-button" data-lang="en"  tweet
       | .
   .clear
-  
-  .grid_8.push_2
-    p Este site usa:
-    img src="assets/rails.png"
-    a href="http://www.960.gs"
-      img src="assets/grid960.png"
-    a href="https://github.com/GiancarloJung/poema-no-copo"
-      img src="assets/github.png"
   .grid_1.push_1
     br
     a href="/home" voltar

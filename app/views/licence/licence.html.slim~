@@ -19,4 +19,5 @@
       a href="http://creativecommons.org/licenses/by-nc-nd/3.0/br/" no site da Creative Commons
   .clear
   .grid_1.push_1
+    br
     a href="/home" voltar

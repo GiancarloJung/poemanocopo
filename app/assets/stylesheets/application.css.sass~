@@ -6,15 +6,6 @@ html, body
 body
   background: url(/assets/background1.png)
 
-#wrapper
-  min-height: 100%
-  height: auto !important
-  height: 100%
-  margin: 0 auto 0px
-
-#footer, #push
-  height: -150px
-
 a img
   border-width: 0
   
@@ -34,6 +25,11 @@ a img
     font-family: "Autour One"
     font-weight: bold
     text-align: center
+  h3
+    font-family: "Autur One"
+    font-size: small
+    color: #b13737
+    text-align: left
 
   p
     padding-left: 20px
@@ -49,19 +45,17 @@ a img
   width: 71px
   height: 70px
   background: url('/assets/facebook.png') bottom
-  &:hover
-    background-position: 0 0
     
 .twitter
   display: block
   width: 71px
   height: 70px
   background: url('/assets/twitter.png') bottom
-  &:hover
-    background-position: 0 0
+
 
 #social
   font-size: x-large
+  display: inline
       
 #logo
   img
@@ -74,21 +68,20 @@ a img
   -moz-box-shadow: inset 0 0 10px black
   -webkit-box-shadow: inset 0 0 10px black
   box-shadow: inset 0 0 10px black
-  min-height: 100%
-
+  padding-bottom: 50px
+  
 .content
+  height: 100%
   h1
     color: black
     font-size: 50pt
-    font-family: "Sketch Coursive"
-    
+    font-family: "Sketch Coursive"  
   p
     font-family: "Helvetica"
     font-size: medium
     text-align: left
     color: #444444
     text-indent: 5mm
-
   a
     font-weight: bold
     color: #496178
@@ -120,9 +113,6 @@ a img
     font-size: small
     color: #b13737
     text-align: left
-
-
-
 
   
 

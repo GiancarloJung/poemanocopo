@@ -1,0 +1,12 @@
+#blog.content.container_12
+  .grid_6.push_3
+    img src="assets/construcao.png"
+  .clear
+  .grid_8.push_3
+    p Nosso blog ainda está em desenvolvimento, mas você pode nos acompanhar pelo Facebook e pelo Twitter enquanto ele não fica pronto.
+    br
+    br
+  .clear
+  .grid_1.push_1
+    br
+    a href="/home" voltar

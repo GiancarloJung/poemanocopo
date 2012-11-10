@@ -1,5 +1,7 @@
 Poemanocopo::Application.routes.draw do
 
+  get "blog/construcao"
+  
   get "help/help"
   get "creators/crators"
   get "home/index"
@@ -11,6 +13,7 @@ Poemanocopo::Application.routes.draw do
   match 'creators' => 'creators#creators'
   match 'help' => 'help#help'
   match 'licence' => 'licence#licence'
+  match 'blog' => 'blog#construcao'
     
   match 'contact' => 'contact#new', :as => 'contact', :via => :get
   match 'contact' => 'contact#create', :as => 'contact', :via => :post

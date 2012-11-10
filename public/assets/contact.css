@@ -1,0 +1,15 @@
+/* line 5, ../../app/assets/stylesheets/contact.css.sass */
+#poems_form {
+  margin-bottom: 10px;
+}
+/* line 7, ../../app/assets/stylesheets/contact.css.sass */
+#poems_form p.small {
+  font-size: small;
+}
+/* line 9, ../../app/assets/stylesheets/contact.css.sass */
+#poems_form h2 {
+  font-size: x-large;
+  font-family: "Helvetica";
+  font-weight: bold;
+  color: #496178;
+}

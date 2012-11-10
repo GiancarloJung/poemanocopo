@@ -29,24 +29,21 @@ html lang="pt"
         
           br
             
-          #social
-            .grid_1.push_9
-              a.facebook href="http://www.facebook.com/poemanocopo" title="Facebook"
-            .grid_1.push_9
-              a.twitter href="http://www.twitter.com/poemanocopo" title="Twitter"
+          #social.grid_4.push_8
+              a.facebook href="http://www.facebook.com/poemanocopo"
+            
+              a.twitter href="http://www.twitter.com/poemanocopo"
 
           .clear
           
           = yield
-        
-        #push
 
   
     #footer
       .container_12
         br
         .grid_2.push_2
-          a 
+          a href="/blog"
             h2 Blog
         .grid_3.push_2
           a href="/creators"
@@ -58,11 +55,5 @@ html lang="pt"
           a href="/help"  
             h2 Ajuda
         
-        
-/          p Este site usa:
-/          img src="assets/rails.png"
-/          a href="http://www.960.gs"
-/            img src="assets/grid960.png"
-/          a href="https://github.com/GiancarloJung/poema-no-copo"
-/            img src="assets/github.png"
+      
 
