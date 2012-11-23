@@ -27,11 +27,12 @@
         .grid_5
           br
           img src="assets/poems.png"
-      fieldset.fields.grid_5
+      fieldset.fields.grid_5.push_1
         .field.grid_5
           h2 Poema
           = form.text_area :body
-          br
+          .clear
           fieldset.actions.grid_1
+            br
             = form.submit "Send"
 
