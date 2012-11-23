@@ -67,7 +67,7 @@ module Poemanocopo
       :port                 => 587,
       :domain               => "poemanocoo.com.br",
       :user_name            => "contato@poemanocopo.com.br",
-      :password             => "gm2006182326",
+      :password             => "poemasescritosnacerveja",
       :authentication       => :plain,
       :enable_starttls_auto => true
       }
