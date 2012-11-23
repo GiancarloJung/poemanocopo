@@ -7,9 +7,8 @@
     p Caso você tenha alguma dúvida, reclamação ou sugestão sinta-se livre para falar com a gente.
     br
   .clear
-  .grid_4.push_1
-    img src="assets/help.png" width="170px"
-  .grid_7
+  .grid_4
+  .grid_7.push_3
     br
     p Você pode:
     br
