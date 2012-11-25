@@ -1,11 +1,11 @@
 class NotificationsMailer < ActionMailer::Base
 
-  default :from => "noreply@poemanocopo.com.br"
-  default :to => "contato@poemanocopo.com.br"
+  default :from => "contato@poemanocopo.com.br"
+  default :to => "poemas@poemanocopo.com.br"
 
   def new_message(message)
     @message = message
-    mail(:subject => "[Poema enviado pelo site] #{message.subject}")
+    mail(:subject => "[Poema enviado pelo site] #{message.name}", :body => "Email: \n #{message.email} \n Título: \n #{message.subject} \n Poema: \n #{message.body}")
   end
 
 end

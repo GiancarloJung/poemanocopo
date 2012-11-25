@@ -65,7 +65,7 @@ module Poemanocopo
     config.action_mailer.smtp_settings = {
       :address              => "smtp.gmail.com",
       :port                 => 587,
-      :domain               => "poemanocoo.com.br",
+      :domain               => "poemanocopo.com.br",
       :user_name            => "contato@poemanocopo.com.br",
       :password             => "poemasescritosnacerveja",
       :authentication       => :plain,
