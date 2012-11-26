@@ -13,3 +13,23 @@
   font-weight: bold;
   color: #496178;
 }
+/* line 15, ../../app/assets/stylesheets/contact.css.sass */
+#poems_form .text_field {
+  margin-top: 5px;
+  padding: 0px 10px;
+  background: transparent;
+  border: solid 2px #496178;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #182b3d;
+}
+/* line 25, ../../app/assets/stylesheets/contact.css.sass */
+#poems_form .text_area {
+  padding: 10px;
+  background: transparent;
+  border: solid 2px #496178;
+  border-radius: 5px;
+  color: #182b3d;
+  font-weight: bold;
+}

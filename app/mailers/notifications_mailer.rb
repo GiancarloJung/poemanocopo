@@ -5,7 +5,7 @@ class NotificationsMailer < ActionMailer::Base
 
   def new_message(message)
     @message = message
-    mail(:subject => "[Poema enviado pelo site] #{message.name}", :body => "Email: \n #{message.email} \n Título: \n #{message.subject} \n Poema: \n #{message.body}")
+    mail(:subject => "[Poema enviado pelo site] #{message.name}", :body => "Email: \n #{message.email} \n Titulo: \n #{message.subject} \n \n Poema: \n #{message.body}")
   end
 
 end

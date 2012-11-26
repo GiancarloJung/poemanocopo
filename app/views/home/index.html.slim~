@@ -1,4 +1,7 @@
 #home.content.content_12
+  - if flash[:notice]
+    .sucess.grid_12
+      h3.flash-notice= flash[:notice]
   .grid_10.push_1
     h1 Como funciona? 
   .clear
@@ -46,6 +49,7 @@
   .clear
   br
   #partners.grid_8.push_2
+    br
     p 
       a href="mailto:contato@poemanocopo.com.br?Subject=Contato%20pelo%20site" Entre em contato 
       | para saber mais sobre como seu bar pode participar.
@@ -54,13 +58,11 @@
   br
   br
   br
-  br
-  br
-  br
-  br
-  br
-  br
-  br
-  br
-  br
+  .grid_11.push_1
+    p
+      | Apoio 
+      span.green Grupo Águia
+      | e 
+      span.green Errejota Livros
+      
 

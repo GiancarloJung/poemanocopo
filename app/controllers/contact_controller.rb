@@ -9,9 +9,9 @@ class ContactController < ApplicationController
     
     if @poema.valid?
       NotificationsMailer.new_message(@poema).deliver
-      redirect_to(root_path, :notice => "Poema emviado com sucesso.")
+      redirect_to(root_path, :notice => "Poema enviado com sucesso.")
     else
-      flash.now.alert = "Please fill all fields."
+      flash.now.alert = "Por favor, preencha todos os campos."
       render :new
     end
   end

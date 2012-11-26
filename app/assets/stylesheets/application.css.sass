@@ -17,23 +17,24 @@ a img
   -webkit-box-shadow: 0 8px 6px -6px black
   -moz-box-shadow: 0 8px 6px -6px black
   box-shadow: 0 8px 6px -6px black
-  h1
-    color: #b13737
-    text-shadow: 3px 3px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black
-    padding-top: 60px
-    font-size: 30pt
-    font-family: "Autour One"
-    font-weight: bold
-    text-align: center
+  #top_text
+    h1
+      color: #b13737
+      text-shadow: 3px 3px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black
+      padding-top: 60px
+      font-size: 30pt
+      font-family: "Autour One"
+      font-weight: bold
+      text-align: center
 
-  p
-    padding-left: 20px
-    color: #c3b0a0
-    font-size: x-large
-    text-shadow: 0px 2px 3px black
-    text-align: left
-    font-family: "Helvetica"
-    text-indent: 10mm
+    p
+      padding-left: 20px
+      color: #c3b0a0
+      font-size: x-large
+      text-shadow: 0px 2px 3px black
+      text-align: left
+      font-family: "Trebuchet MS"
+      text-indent: 10mm
     
 .facebook
   display: block
@@ -72,13 +73,14 @@ a img
     font-size: 50pt
     font-family: "Sketch Coursive"  
   p
-    font-family: "Helvetica"
+    font-family: "Helvetica Neue"
     font-size: medium
     text-align: left
     color: #444444
     text-indent: 5mm
   a
     font-weight: bold
+    font-family: "Helvetica Neue"
     color: #496178
     text-decoration: none
     &:link, a:visited, a:active
@@ -86,13 +88,36 @@ a img
       color: #496178
     &:hover
       color: #6a955b 
+  h3
+    font-weight: bold
+    font-family: "Autour One"
+    font-size: 11pt
+    
+
+
+.error
+  background: #b13737
+  text-align: center
+  padding: 20px 0
+  border: solid 3px black
+  margin-left: 6px
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9)
+  
+.sucess
+  background: #6a955b
+  text-align: center
+  padding: 20px 0
+  border: solid 3px black
+  margin-left: 6px
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9)
+   
 
     
 #footer
   background: #020200
   height: 50px
   a
-    font-family: "Helvetica"
+    font-family: "Autour One"
     font-size: x-large
     font-weight: bold
     color: #496178
@@ -101,13 +126,38 @@ a img
       text-decoration: none
       color: #496178
     &:hover
-      color: #6a955b 
+      color: #6a955b
+
+.button
+  font-size: small
+  text-align: center
+  font-weight: bold
+  font-family: "Autour One"
+  color: #000
+  height: 25px
+  width: 66px
+  background: #6a955b
+  text-decoration: none
+  border-radius: 5px
+  border: solid 2px #000
+  &:link, a:visited, a:active
+    text-decoration: none
+    color: #000
+  &:hover
+    text-decoration: none
+    background: #b13737
+    color: #000
     
-  p 
-    font-family: "Autur One"
+.voltar
+  padding-top: 4px
+  height: 17px
+  width: 66px
+  a
+    font-family: "Autour One"
     font-size: small
-    color: #b13737
-    text-align: left
+    color: #000
+
+
 
   
 

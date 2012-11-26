@@ -7,7 +7,6 @@
   font-family: "Helvetica"
   font-size: medium
   text-align: left
-  color: #444444
   text-indent: 5mm      
 #join
   p

@@ -28,11 +28,8 @@ html lang="pt"
         #content.container_12
         
           br
-            
-          #social.grid_4.push_8
-              a.facebook href="http://www.facebook.com/poemanocopo"
-            
-              a.twitter href="http://www.twitter.com/poemanocopo"
+          br
+          br
 
           .clear
           
@@ -47,7 +44,7 @@ html lang="pt"
             h2 Blog
         .grid_3.push_2
           a href="/creators"
-            h2 Idealizadores
+            h2 Criadores
         .grid_3.push_2
           a href="/licence"  
             h2 licença

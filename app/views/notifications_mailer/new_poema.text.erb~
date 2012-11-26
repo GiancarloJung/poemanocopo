@@ -1,7 +1,7 @@
-Name: <%= @message.name %>
+Name: <%= @poema.name %>
 
-Email: <%= @message.email %>
+Email: <%= @poema.email %>
 
-Subject: <%= @message.subject %>
+Subject: <%= @poema.subject %>
 
-Body: <%= @message.body %>
+Body: <%= @poema.body %>
