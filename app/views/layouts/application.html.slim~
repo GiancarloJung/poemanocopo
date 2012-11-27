@@ -44,7 +44,7 @@ html lang="pt"
             h2 Blog
         .grid_3.push_2
           a href="/creators"
-            h2 Criadores
+            h2 criadores
         .grid_3.push_2
           a href="/licence"  
             h2 licença
