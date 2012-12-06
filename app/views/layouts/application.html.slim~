@@ -1,5 +1,4 @@
-doctype
-html lang="pt"
+xhtml lang="pt"
   head
     meta content="0U5aj04TRgHSKqZGXPrp2hMPlvs2tOsVYBYT7osnWHE" name="google-site-verification"
     title Poema no Copo
@@ -24,9 +23,15 @@ html lang="pt"
 			      p Nós do Poema no Copo temos como proposta incentivar a literatura boêmia da capital gaúcha de maneira descontraída. Com pareceria de diversos bares de Porto Alegre, exibiremos os melhores poemas de nossos participantes, gerando divertimento e reconhecimento para os criativos da região. 
 			      br
 			      p Tire os poemas do papel e ponha-os no copo!
-			          
+			                      
         #content.container_12
-        
+          br
+          br
+          #social.grid_4.push_2
+            #fb-root
+            .fb-like data-href="http://www.facebook.com/poemanocopo" data-send="false" data-layout="button_count" data-show-faces="false"
+            br
+            a.twitter-follow-button href="https://twitter.com/poemanocopo" data-count="vertical" data-show-count="true" data-lang="pt"
           br
           br
           br

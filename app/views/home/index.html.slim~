@@ -1,13 +1,20 @@
 #home.content.content_12
+  #social.grid_5.push_1
+    #fb-root
+    .fb-like data-href="http://www.facebook.com/poemanocopo" data-send="false" data-layout="button_count" data-show-faces="false"
+    br
+    br
+    a.twitter-follow-button href="https://twitter.com/poemanocopo" data-count="vertical" data-show-count="true" data-lang="en"
+      | @poemanocopo
+  .clear
   - if flash[:notice]
     .sucess.grid_12
       h3.flash-notice= flash[:notice]
     .clear
-  #fb-root
-  .fb-like.push_10 data-href="http://www.facebook.com/poemanocopo" data-send="false" data-layout="box_count" data-width="450" data-show-faces="true"
-  a.twitter-follow-button.push_11 href="https://twitter.com/poemanocopo" data-count="vertical" data-show-count="true" data-lang="en" 
-    | @poemanocopo
-  .clear
+  br
+  br
+  br
+  br
   .grid_10.push_1
     h1 Como funciona? 
   .clear

@@ -48,34 +48,12 @@ a img {
   text-indent: 10mm;
 }
 
-/* line 39, ../../app/assets/stylesheets/application.css.sass */
-.facebook {
-  display: block;
-  width: 71px;
-  height: 70px;
-  background: url("/assets/facebook.png") bottom;
-}
-
-/* line 45, ../../app/assets/stylesheets/application.css.sass */
-.twitter {
-  display: block;
-  width: 71px;
-  height: 70px;
-  background: url("/assets/twitter.png") bottom;
-}
-
-/* line 52, ../../app/assets/stylesheets/application.css.sass */
-#social {
-  font-size: x-large;
-  display: inline;
-}
-
-/* line 57, ../../app/assets/stylesheets/application.css.sass */
+/* line 42, ../../app/assets/stylesheets/application.css.sass */
 #logo img {
   height: 350px;
 }
 
-/* line 60, ../../app/assets/stylesheets/application.css.sass */
+/* line 45, ../../app/assets/stylesheets/application.css.sass */
 #content {
   background: url(/assets/background3.png);
   border-left: solid 5px black;
@@ -86,17 +64,17 @@ a img {
   padding-bottom: 50px;
 }
 
-/* line 69, ../../app/assets/stylesheets/application.css.sass */
+/* line 54, ../../app/assets/stylesheets/application.css.sass */
 .content {
   height: 100%;
 }
-/* line 71, ../../app/assets/stylesheets/application.css.sass */
+/* line 56, ../../app/assets/stylesheets/application.css.sass */
 .content h1 {
   color: black;
   font-size: 50pt;
   font-family: "Sketch Coursive";
 }
-/* line 75, ../../app/assets/stylesheets/application.css.sass */
+/* line 60, ../../app/assets/stylesheets/application.css.sass */
 .content p {
   font-family: "Helvetica Neue";
   font-size: medium;
@@ -104,30 +82,30 @@ a img {
   color: #444444;
   text-indent: 5mm;
 }
-/* line 81, ../../app/assets/stylesheets/application.css.sass */
+/* line 66, ../../app/assets/stylesheets/application.css.sass */
 .content a {
   font-weight: bold;
   font-family: "Helvetica Neue";
   color: #496178;
   text-decoration: none;
 }
-/* line 86, ../../app/assets/stylesheets/application.css.sass */
+/* line 71, ../../app/assets/stylesheets/application.css.sass */
 .content a:link, .content a a:visited, .content a a:active {
   text-decoration: none;
   color: #496178;
 }
-/* line 89, ../../app/assets/stylesheets/application.css.sass */
+/* line 74, ../../app/assets/stylesheets/application.css.sass */
 .content a:hover {
   color: #6a955b;
 }
-/* line 91, ../../app/assets/stylesheets/application.css.sass */
+/* line 76, ../../app/assets/stylesheets/application.css.sass */
 .content h3 {
   font-weight: bold;
   font-family: "Autour One";
   font-size: 11pt;
 }
 
-/* line 98, ../../app/assets/stylesheets/application.css.sass */
+/* line 83, ../../app/assets/stylesheets/application.css.sass */
 .error {
   background: #b13737;
   text-align: center;
@@ -137,7 +115,7 @@ a img {
   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.9);
 }
 
-/* line 106, ../../app/assets/stylesheets/application.css.sass */
+/* line 91, ../../app/assets/stylesheets/application.css.sass */
 .sucess {
   background: #6a955b;
   text-align: center;
@@ -147,12 +125,12 @@ a img {
   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.9);
 }
 
-/* line 116, ../../app/assets/stylesheets/application.css.sass */
+/* line 101, ../../app/assets/stylesheets/application.css.sass */
 #footer {
   background: #020200;
   height: 50px;
 }
-/* line 119, ../../app/assets/stylesheets/application.css.sass */
+/* line 104, ../../app/assets/stylesheets/application.css.sass */
 #footer a {
   font-family: "Autour One";
   font-size: x-large;
@@ -160,17 +138,17 @@ a img {
   color: #496178;
   text-decoration: none;
 }
-/* line 125, ../../app/assets/stylesheets/application.css.sass */
+/* line 110, ../../app/assets/stylesheets/application.css.sass */
 #footer a:link, #footer a a:visited, #footer a a:active {
   text-decoration: none;
   color: #496178;
 }
-/* line 128, ../../app/assets/stylesheets/application.css.sass */
+/* line 113, ../../app/assets/stylesheets/application.css.sass */
 #footer a:hover {
   color: #6a955b;
 }
 
-/* line 131, ../../app/assets/stylesheets/application.css.sass */
+/* line 116, ../../app/assets/stylesheets/application.css.sass */
 .button {
   font-size: small;
   text-align: center;
@@ -184,29 +162,29 @@ a img {
   border-radius: 5px;
   border: solid 2px black;
 }
-/* line 143, ../../app/assets/stylesheets/application.css.sass */
+/* line 128, ../../app/assets/stylesheets/application.css.sass */
 .button a {
   color: black;
 }
-/* line 145, ../../app/assets/stylesheets/application.css.sass */
+/* line 130, ../../app/assets/stylesheets/application.css.sass */
 .button:link, .button a:visited, .button a:active {
   text-decoration: none;
   color: black;
 }
-/* line 148, ../../app/assets/stylesheets/application.css.sass */
+/* line 133, ../../app/assets/stylesheets/application.css.sass */
 .button:hover {
   text-decoration: none;
   background: #b13737;
   color: black;
 }
 
-/* line 153, ../../app/assets/stylesheets/application.css.sass */
+/* line 138, ../../app/assets/stylesheets/application.css.sass */
 .voltar {
   padding-top: 4px;
   height: 17px;
   width: 66px;
 }
-/* line 157, ../../app/assets/stylesheets/application.css.sass */
+/* line 142, ../../app/assets/stylesheets/application.css.sass */
 .voltar a {
   font-family: "Autour One";
   font-size: small;
